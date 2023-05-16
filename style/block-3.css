@@ -1,0 +1,148 @@
+.background-block-3{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../media/hero-2.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 50%;
+     transition: 0.8s;
+     background-color: black;
+}
+ .block-3{
+   padding: 40px 20px 40px 20px;
+     width: 335px;
+     margin: 0 auto;
+}
+ .block-3-content {
+     word-wrap: break-word;
+     overflow: hidden;
+     transition: 0.8s;
+}
+ .block-3 h2{
+     font-size: 18px;
+     transition: 0.8s;
+     font-family: Ink Free;
+     color: white;
+}
+
+ .block-3 h3{
+     font-size: 25px;
+     transition: 0.8s;
+     color: white;
+     font-family: rockwell;
+}
+ .block-3 h4{
+     font-size: 25px;
+     transition: 0.8s;
+     color: #ffcc00;
+     font-family: rockwell;
+}
+ .newPrice{
+     font-family: rockwell;
+     text-decoration: line-through;
+     font-size: 24px;
+     transition: 0.8s;
+     color: white;
+}
+ .block-3 p{
+     font-family: Rubik, sans-serif;
+     font-size: 15px;
+     transition: 0.8s;
+     color: white;
+}
+ .button-3 {
+     font-family: verdana;
+     color: #ffffff;
+     background-color: #e7272d;
+     border-color: transparent;
+     padding: 16px 10px;
+     transition: 0.8s;
+}
+ .button-3:hover{
+     background-color: #ffcc00;
+}
+ @media screen and (min-width: 768px) {
+     .clearfix{
+         clear: right;
+    }
+     .block-3{
+         transition: 0.8s;
+         width: 728px;
+    }
+     .block-3-content{
+         width: 364px;
+         float: right;
+         transition: 0.8s;
+    }
+     .block-3-content h2{
+         font-size: 28px;
+         transition: 0.8s;
+    }
+     .block-3-content h3{
+         font-size: 28px;
+         transition: 0.8s;
+    }
+     .block-3-content h4{
+         font-size: 24px;
+         transition: 0.8s;
+    }
+     .block-3-content p{
+         font-size: 15px;
+         transition: 0.8s;
+    }
+}
+ @media screen and (min-width: 1024px) {
+     .clearfix{
+         clear: right;
+    }
+     .block-3{
+       width: 984px;
+    }
+     .block-3-content{
+         float: right;
+         width: 492px;
+    }
+     .block-3-content h2{
+         font-size: 20px;
+    }
+     .block-3-content h3{
+         font-size: 28px;
+    }
+     .block-3-content h4{
+         font-size: 28px;
+    }
+     .newPrice{
+         font-size: 24px;
+    }
+     .block-3-content p{
+         font-size: 15px;
+    }
+}
+ @media screen and (min-width: 1440px) {
+     .clearfix{
+         clear: right;
+    }
+     .block-3{
+         width: 1440px;
+    }
+     .block-3-content{
+         float: right;
+         width: 720px;
+    }
+     .block-3-content h2{
+         font-size: 30px;
+    }
+     .block-3-content h3{
+         font-size: 53px;
+    }
+     .block-3-content h4{
+         font-size: 55px;
+    }
+     .newPrice{
+         font-size: 24px;
+    }
+     .block-3-content p{
+         font-size: 23px;
+    }
+     .button-3 {
+         padding: 23px 26px;
+    }
+}

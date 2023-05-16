@@ -1,0 +1,206 @@
+.background-block-5{
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../media/background-5.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: 50% 50%;
+     transition: 0.8s;
+     background-color: black;
+}
+ .block-5 {
+     word-wrap: break-word;
+     overflow: hidden;
+     width: 335px;
+     margin: 0 auto;
+     padding: 60px 20px 60px 20px;
+     transition: 0.8s;
+}
+ .block-5 h2 {
+     color: #ffcc00;
+     font-family: Ink Free;
+     text-align: center;
+     transition: 0.8s;
+}
+ .block-5 h3 {
+     font-family: rockwell;
+     font-size: 25px;
+     color: white;
+     text-align: center;
+     transition: 0.8s;
+}
+ .block-5-content{
+     width: 335px;
+}
+ .testimonials-box{
+     transition: 0.8s;
+}
+ .col-5 + .col-5{
+     margin-top: 30px;
+}
+ .col-5:nth-child(1n + 2) {
+     margin-top: 30px;
+}
+/* @media (min-width: 768px) {
+     .testimonials-box:nth-child(1n + 4){
+         margin-top: 20px;
+    }
+}
+ */
+ .photo-1, .photo-2, .photo-3{
+     height: auto;
+     width: 100%;
+     overflow:hidden;
+     transition: 0.8s;
+}
+ .photo-container{
+     width: 335px;
+}
+ .box-text {
+     background-color: white;
+     padding: 25px;
+     word-break: break-word;
+     overflow: hidden;
+     width: 285px;
+     transition: 0.8s;
+}
+ .photo-container + .box-text{
+     margin-top: 20px;
+}
+ .box-title-1{
+     color: #e7272d;
+     font-family: arial black;
+     font-size: 18px;
+     transition: 0.8s;
+}
+ .box-text p{
+     color: #888787;
+     font-family: 'Rubik', sans-serif;
+     font-size: 13px;
+     transition: 0.8s;
+}
+ .box-name{
+     font-family: 'Rubik', sans-serif;
+     color: black;
+     font-size: 18px;
+     transition: 0.8s;
+}
+ h3 + .block-5-content{
+     margin-top: 20px;
+}
+ @media screen and (min-width: 768px) {
+     .col-5:nth-child(1n + 2) {
+         margin-top: 0;
+    }
+     .block-5{
+         width: 728px;
+         padding: 60px 20px 60px 20px;
+    }
+     .block-5 h2{
+         font-size: 18px;
+    }
+     .block-5 h3{
+         font-size: 25px;
+    }
+     .col-5{
+         width: 242.666px
+    }
+     .block-5-content {
+         width: 728px;
+         display: flex;
+         justify-content: space-around;
+    }
+     .photo-container{
+         width: 225px;
+    }
+     .box-text{
+         width: 185px;
+         padding: 25px 20px 25px 20px;
+    }
+     .testimonials-box{
+         margin: 0 auto;
+         width: 225px;
+    }
+     .box-title-1{
+         font-size: 16px;
+    }
+     .box-text p{
+         font-size: 13px;
+    }
+     .box-name{
+         font-size: 16px;
+    }
+     .photo-container + .box-text{
+         margin-top: 10px;
+    }
+     h3 + .block-5-content{
+         margin-top: 20px;
+    }
+}
+ @media screen and (min-width: 1024px) {
+     .block-5{
+         width: 984px;
+         padding: 60px 20px 60px 20px;
+    }
+     .block-5-content{
+         width: 984px;
+         display: flex;
+    }
+     .block-5 h2{
+         font-size: 20px;
+    }
+     .block-5 h3{
+         font-size: 28px;
+    }
+     .testimonials-box{
+         width: 300px;
+    }
+     .photo-container{
+         width: 300px;
+    }
+     .box-text{
+         width: 260px;
+         padding: 25px 20px 25px 20px;
+    }
+     .col-5{
+         width: 328px;
+    }
+}
+ @media screen and (min-width: 1440px) {
+     .photo-container + .box-text{
+         margin-top:25px;
+    }
+     .block-5{
+         width: 1400px;
+         padding: 60px 20px 60px 20px;
+    }
+     .block-5-content {
+         width: 1400px;
+    }
+     .testimonials-box{
+         width: 370px;
+    }
+     .photo-container{
+         width: 370px;
+    }
+     .box-text{
+         width: 330px;
+         padding: 25px 20px 25px 20px;
+    }
+     .col-5{
+         width: 466.666px;
+    }
+     .block-5 h2{
+         font-size: 30px;
+    }
+     .block-5 h3{
+         font-size: 53px;
+    }
+     .box-title-1{
+         font-size: 16px;
+    }
+     .box-text p{
+         font-size: 15px;
+    }
+     .box-name{
+         font-size: 30px;
+    }
+}

@@ -1,0 +1,224 @@
+.background-4{
+     background-color: white;
+}
+ .block-4{
+     width: 335px;
+     padding: 60px 20px 60px 20px;
+     text-align: center;
+     margin: 0 auto;
+     overflow: hidden;
+     word-wrap: break-word;
+     transition: 0.8s;
+}
+ .block-4 h2{
+     font-family: Ink Free;
+     font-size: 18px;
+     color: #e7272d;
+     transition: 0.8s;
+}
+ .block-4 h3{
+     font-family: Rockwell;
+     color: black;
+     font-size: 25px;
+     transition: 0.8s;
+}
+ .menu{
+     overflow: hidden;
+     transition: 0.8s;
+}
+ .menu-option{
+     word-wrap: break-word;
+     overflow: hidden;
+     transition: 0.8s;
+}
+.photo-container{
+  width: 335px;
+}
+.menu-option + .menu-option{
+  margin-top: 20px;
+}
+ .food-img img{
+     height: auto;
+     width: 100%;
+     transition: 0.8s;
+}
+.food-img{
+  margin: 0 auto;
+  width: 270px;
+  padding: 0px 32.5px 0px 32.5px;
+}
+.menu-option-text{
+  margin: 0 auto;
+  width: 300px;
+  padding: 0px 17.5px 0px 17.5px;;
+}
+.food-img + .menu-option-text{
+  margin-top: 20px;
+
+}
+ .menu-option h4{
+     font-family: 'Rubik', sans-serif;
+     font-size: 18px;
+     transition: 0.8s;
+}
+ .menu-option p{
+     font-size: 13px;
+     color: #888787;
+     font-family: 'Rubik', sans-serif;
+     transition: 0.8s;
+}
+ .menu-option h5{
+     font-size: 20px;
+     color: #e7272d;
+     font-family: 'Rubik', sans-serif;
+     transition: 0.8s;
+}
+ .tabButton {
+     font-family: Rockwell;
+     font-size: 14pX;
+     background-color: white;
+     border: none;
+     outline: none;
+     cursor: pointer;
+     padding: 14px 16px;
+     width: 100%;
+     transition: 0.8s;
+}
+ .tabButton:hover{
+     text-decoration: underline;
+     transition: 0.8s;
+}
+ .tabcontent, .tabcontent-1 {
+     transition: 0.8s;
+     display: none;
+     border-top: none;
+}
+ @media screen and (min-width: 768px) {
+   h3 + .menu{
+     margin-top: 20px;
+   }
+   #all{
+     min-height: 600px;
+   }
+   #burgers{
+     min-height: 350px;
+   }
+   #drinks{
+     min-height: 350px;
+   }
+   #snacks{
+     min-height: 350px;
+   }
+   .clearfix{
+     clear: both;
+   }
+   .block-4{
+    width: 728px;
+    padding: 20px;
+   }
+   .tabButton{
+       width: 90px;
+  }
+   .menu-option{
+     width: 172px;
+     padding: 5px;
+     float: left;
+   }
+   .menu-option + .menu-option{
+     margin-top: 0
+   }
+   .food-img{
+     width: 172px;
+     padding: 0;
+   }
+   .menu-option-text{
+     width: 172px;
+     padding: 0;
+   }
+
+   .tabcontent{
+
+   }
+     .menu-option h4{
+         font-size: 16px;
+    }
+
+}
+ @media screen and (min-width: 1024px) {
+   #all{
+     min-height:700px;
+   }
+   #burgers{
+     min-height: 350px;
+   }
+   #drinks{
+     min-height: 350px;
+   }
+   #snacks{
+     min-height: 350px;
+   }
+     .block-4{
+         width: 984px;
+    }
+     .block-4 h2{
+         font-size: 20px;
+    }
+     .block-4 h3{
+         font-size: 28px;
+    }
+     .menu-option{
+         width: 236px;
+    }
+    .food-img{
+      width: 236px;
+    }
+    .menu-option-text{
+      width: 236px;
+    }
+}
+ @media screen and (min-width: 1440px){
+   #all{
+     min-height:800px;
+   }
+   #burgers{
+     min-height: 450px;
+   }
+   #drinks{
+     min-height: 450px;
+   }
+   #snacks{
+     min-height: 450px;
+   }
+     .block-4{
+         width: 1240px;
+         padding: 60px 100px 60px 100px;
+    }
+     .menu-option{
+         width: 300px;
+    }
+    .food-img{
+      width: 300px;
+    }
+    .menu-option-text{
+      width: 300px;
+    }
+     .block-4 h2{
+         font-size: 30px;
+    }
+     .block-4 h3{
+         font-size: 55px;
+    }
+     .menu-option h4{
+         font-size: 20px;
+    }
+     .menu-option p{
+         font-size: 15px;
+    }
+     .menu-option h5{
+         font-size: 25px;
+    }
+     .tabButton{
+         font-size: 17px;
+         width: 100px;
+    }
+}

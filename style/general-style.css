@@ -1,0 +1,80 @@
+body{
+  min-width: 375px;
+  margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6, p, span{
+  margin: 0;
+  word-break: break-word;
+}
+p{
+    line-height: 1.5;
+    letter-spacing: 0px;
+}
+a{
+  margin: 0;
+  direction: none;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+h1 + h2{
+  margin-top: 10px;
+}
+h2 + h3{
+ margin-top: 10px;
+}
+h2 + p{
+  margin-top: 20px;
+}
+h1 + h2{
+ margin-top: 10px;
+}
+* + h3{
+  margin-top: 10px;
+}
+p + p{
+  margin-top: 10px
+}
+h3 + p{
+  margin-top: 10px;
+}
+h3 + h4{
+  margin-top: 10px;
+}
+h4 + p{
+  margin-top: 10px;
+}
+p + h5{
+  margin-top: 10px;
+}
+p + button{
+  margin-top: 20px;
+}
+p + div{
+  margin-top: 20px;
+}
+div + p{
+  margin-top: 20px;
+}
+input + input{
+  margin-top: 10px;
+}
+.row{
+  padding: 0;
+}
+.container{
+  padding: 60px 20px 60px 20px;
+}
+.clearfix{
+  clear: both;
+}
+@media screen and (min-width: 768px){
+
+}
+@media screen and (min-width: 1024px) {
+
+}
+@media screen and (min-width: 1440px) {
+
+}

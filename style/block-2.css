@@ -1,0 +1,255 @@
+/* mobile */
+ .block-2{
+     background-color: white;
+}
+ .container{
+     margin: 0 auto;
+     transition: 0.8s;
+}
+ .img-container-b2{
+     width: 335px transition: 0.8s;
+}
+ .text-b-2{
+     overflow: hidden;
+     word-wrap: break-word;
+     transition: 0.8s;
+}
+ .text-b-2 h2{
+     font-size: 25px;
+     font-family: Rockwell;
+     color: black;
+     transition: 0.8s;
+}
+ .text-b-2 h3{
+     color: #6d6a6a;
+     font-size: 18px;
+     font-family: 'Rubik', sans-serif;
+     transition: 0.8s;
+}
+ .text-b-2 p{
+     font-family: 'Rubik', sans-serif;
+     color: #9c9b9b;
+     font-size: 15px;
+     transition: 0.8s;
+}
+ .col-3 + .col-3 {
+     margin-top: 20px;
+     transition: 0.8s;
+}
+ .col-375{
+     width: 335px;
+     transition: 0.8s;
+}
+ .sign-container{
+     width: 115px;
+     transition: 0.8s;
+}
+ input{
+     width: 250px;
+     padding: 10px;
+     transition: 0.8s;
+}
+ .order{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../media/back-form.png");
+     background-position: 50% 50%;
+     overflow: hidden;
+     box-sizing: content-box;
+     width: 295px;
+     padding: 40px 20px 40px 20px;
+     text-align: center;
+     background-color: black;
+     transition: 0.8s;
+}
+ .order h2 {
+     text-align: left;
+     color: white;
+     font-size: 28px;
+     font-family: Rockwell;
+     padding:0px 10px 0px 10px;
+     transition: 0.8s;
+}
+ textarea{
+     width: 250px;
+     padding: 10px;
+     transition: 0.8s;
+}
+ input + input{
+     margin-top: 20px;
+     transition: 0.8s;
+}
+ h2 + input{
+     margin-top: 20px;
+     transition: 0.8s;
+}
+ input + textarea{
+     margin-top: 20px;
+     transition: 0.8s;
+}
+ textarea + button{
+     margin-top: 20px;
+     transition: 0.8s;
+}
+ .button-2:hover{
+     background-color: #ffcc00;
+}
+ .button-2{
+     padding: 10px 91px;
+     font-family: verdana;
+     font-weight: 500;
+     font-style: normal;
+     color: #ffffff;
+     background-color: #e7272d;
+     border-color: transparent;
+     transition: 0.8s;
+}
+/* mobile */
+/* tablet */
+ @media screen and (min-width: 768px){
+     .container{
+         width: 728px;
+         display: flex;
+         align-items: flex-end;
+         padding: 0px 20px 0px 20px;
+    }
+     .order h2 {
+         font-size: 21px;
+         padding: 0px 30px;
+    }
+     .col-3 {
+         width: 222.666px;
+         padding: 40px 10px 40px 10px;
+    }
+     .col-3-img{
+         padding: 0px 10px 0px 10px;
+    }
+     .img-container-b2{
+    }
+     .col-3 + .col-3{
+         margin: 0;
+    }
+     .text-b-2{
+         width: 222.666px;
+    }
+     .img-container-b2{
+         width:222.666px;
+    }
+     .order{
+         width: 222.666px;
+         padding: 20px 0px 20px 0px;
+    }
+     input{
+         width: 140px;
+    }
+     textarea{
+         width: 140px;
+    }
+     .button-2{
+         padding: 10px 38px;
+    }
+     .text-b-2 h2{
+         font-size: 28px;
+    }
+     .text-b-2 h3{
+         font-size: 16px;
+    }
+     .text-b-2 p{
+         font-size: 13px;
+    }
+}
+/* tablet */
+/* laptop */
+ @media screen and (min-width: 1024px){
+     .container{
+         width: 984px;
+    }
+     .order h2 {
+         font-size: 25px;
+         padding: 0px 40px;
+    }
+     .col-3 {
+         width: 308px;
+    }
+     .col-3-img{
+    }
+     .img-container-b2{
+         width: 308px;
+    }
+     .text-b-2{
+         width: 308px;
+    }
+     .img-container-b2{
+         width: 308px;
+    }
+     .order{
+         width: 308px;
+    }
+     input{
+         width: 200px;
+    }
+     textarea{
+         width: 200px;
+    }
+     .button-2{
+         padding: 10px 65px;
+    }
+     .text-b-2 h2{
+         font-size: 28px;
+    }
+     .text-b-2 h3{
+         font-size: 16px;
+    }
+     .text-b-2 p{
+         font-size: 13px;
+    }
+}
+/* laptop */
+/* desktop */
+ @media screen and (min-width: 1440px){
+     .container{
+         width: 1400px
+    }
+     .order h2{
+    }
+     .col-3 {
+         width: 446px;
+    }
+     .img-container-b2{
+         width: 446px;
+         overflow: hidden;
+         margin: 0 auto;
+    }
+     .text-b-2 {
+         width: 446px;
+         padding: 75px 0px;
+    }
+     .order{
+         width: 446px;
+         padding: 60px 0px 60px 0px;
+    }
+     .order h2{
+         font-size: 30px;
+         padding: 0px 55px 0px 55px;
+    }
+     input{
+         width: 300px;
+    }
+     textarea{
+         width: 300px;
+    }
+     .button-2{
+         padding: 10px 114px;
+    }
+     .text-b-2 h2{
+         font-size: 50px;
+    }
+     .text-b-2 h3{
+         font-size: 20px;
+    }
+     .text-b-2 p{
+         font-size: 15px;
+    }
+}
+/* desktop */
+ 

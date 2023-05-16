@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>@import url('https://fonts.cdnfonts.com/css/ink-free');</style>
+    <link rel="stylesheet" href="style/general-style.css">
+    <link rel="stylesheet" href="style/block-1.css">
+    <link rel="stylesheet" href="style/block-2.css">
+    <link rel="stylesheet" href="style/block-3.css">
+    <link rel="stylesheet" href="style/block-4.css">
+    <link rel="stylesheet" href="style/block-5.css">
+    <link rel="stylesheet" href="style/block-6.css">
+    <link rel="stylesheet" href="style/block-7.css">
+    <link rel="stylesheet" href="style/block-8.css">
+    <link rel="stylesheet" href="style/block-9.css">
+    <link rel="stylesheet" href="style/block-10.css">
+    <link rel="stylesheet" href="style/block-11.css">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Examne-Angel-Luna</title>
+  </head>
+  <body>
+    <!-- block-1 -->
+    <div class="block-1">
+      <div class="row">
+        <div class="header">
+          <div class="logo-container">
+            <img src="media/logo.png" class="image-logo">
+          </div>
+          <div class="menu-0">
+            <button class="menu-button" onclick="toggleMenu()">☰</button>
+            <div class="dropdown-0" id="menu-dropdown">
+              <a href="#">ABOUT</a>
+              <a href="#">PRICING</a>
+              <a href="#">CONTACTS</a>
+              <a href="#" onclick="toggleSubMenu()">ALL BLOCKS</a>
+              <div class="dropdown-menu-0" id="menu-0">
+                <a href="#">About</a>
+                <a href="#">Ads Bar</a>
+                <a href="#">Menu</a>
+                <a href="#">Testimonials</a>
+                <a href="#">FAQs</a>
+                <a href="#">Sponsors</a>
+                <a href="#">Teams</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="menu-1">
+            <a href="#">ABOUT</a>
+            <a href="#">PRICING</a>
+            <a href="#">CONTACTS</a>
+            <div class="dropdown">
+              <a href="#">ALL BLOCKS</a>
+              <div class="dropdown-menu">
+                <a href="#">About</a>
+                <a href="#">Ads Bar</a>
+                <a href="#">Menu</a>
+                <a href="#">Testimonials</a>
+                <a href="#">FAQs</a>
+                <a href="#">Sponsors</a>
+                <a href="#">Teams</a>
+                <a href="#">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="header-icons">
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/facebook.png" alt="facebook-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/twitter.png" alt="twitter-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/plogo.png" alt="pinterest-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/linkedin.png" alt="linkedin-logo">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero">
+        <div class="row-1">
+          <h1>Express food to raise your mood!</h1>
+          <h2>Mexican Burger</h2>
+          <h3>$14.99</h3>
+          <button class="button-1">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+    <!-- block-1 -->
+    <!-- block-2 -->
+    <div class="block-2">
+      <div class="container">
+        <div class="col-3 col-3-img">
+          <div class="img-container-b2">
+            <img src="media/chef.jpg" alt="chef-jack">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="text-b-2">
+            <h2>Jack Winsly</h2>
+            <h3>Chef Head</h3>
+            <p>Welcome to Burger King website. Here we try to share our vision about food quality, our mission about customer’s satisfaction and introducing services that we provide for each one of you.</p>
+            <p>We offer fast food, served fresh with the highest quality of ingredients: fresh, handcut chicken, buns baked fresh in our own bakeries and the most delicious hot dogs with a variety of toppings.</p>
+            <div class="sign-container">
+              <img src="media/sign.png" alt="sign">
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="order">
+            <h2>Take a Reservation</h2>
+            <input type="text" name="" value="name*" class="name-form">
+            <input type="text" name="" value="E-mail" class="mail">
+            <input type="text" name="" value="Phone" class="phone">
+            <input type="text" name="" value="Date, Time" class="date">
+            <textarea name="name" rows="8" cols="100" value="meessage" class="message"></textarea>
+            <button class="button-2">ORDER NOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- block-2 -->
+    <!-- block-3 -->
+    <div class="background-block-3">
+      <div class="block-3">
+        <div class="block-3-content">
+          <h2>Best Offer</h2>
+          <h3>Double Snack Menu</h3>
+          <h4>$29.00 <span class="newPrice"> $60.00</span>
+          </h4>
+          <p>Enjoy this amazing offer, which includes our Standard Taco and Mexican Sauce.</p>
+          <button class="button-3">ORDER ONLINE</button>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- block-3 -->
+    <!-- block-4 -->
+    <div class="background-4">
+      <div class="block-4">
+        <h2>Our Products</h2>
+        <h3>Our Menu</h3>
+        <div class="menu">
+          <button class="tabButton" onclick="openMenu(event, 'all')">All</button>
+          <button class="tabButton" onclick="openMenu(event, 'burgers')">Burgers</button>
+          <button class="tabButton" onclick="openMenu(event, 'drinks')">Drinks</button>
+          <button class="tabButton" onclick="openMenu(event, 'snacks')">Snacks</button>
+        </div>
+        <!-- tab All -->
+        <div id="all" class="tabcontent">
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-1.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Local Recipes</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$29.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-2.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Classic Smash</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-3.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Bacon Avocado Club</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$20.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-4.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>BBQ, Bacon & Cheddar</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-5.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Juice</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$29.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-6.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Beer</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-7.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Smashfries</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$20.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-8.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Fried Pickles</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+        </div>
+        <!-- tab All -->
+        <!-- tab Burgers -->
+        <div id="burgers" class="tabcontent">
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-1.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Local Recipes</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$29.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-2.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Classic Smash</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-3.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Bacon Avocado Club</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$20.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-4.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>BBQ, Bacon & Cheddar</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+        </div>
+        <!-- tab Burgers -->
+        <!-- tab Drinks -->
+        <div id="drinks" class="tabcontent">
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-5.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Juice</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$29.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-6.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Beer</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+        </div>
+        <!-- tab Drinks -->
+        <!-- tab Snacks -->
+        <div id="snacks" class="tabcontent">
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-7.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Smashfries</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$20.00</h5>
+            </div>
+          </div>
+          <div class="menu-option">
+            <div class="food-img">
+              <img src="media/menu-8.jpg" alt="burguer">
+            </div>
+            <div class="menu-option-text">
+              <h4>Fried Pickles</h4>
+              <p>Smashburger looks for unique flavors & ingredients to build our local burgers.</p>
+              <h5>$19.00</h5>
+            </div>
+          </div>
+        </div>
+        <!-- tab Snacks -->
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- block-4 -->
+    <!-- block-5 -->
+    <div class="background-block-5">
+      <div class="block-5">
+        <h2>Testimonials</h2>
+        <h3>What Clients Say?</h3>
+        <div class="block-5-content">
+          <div class="col-5">
+            <div class="testimonials-box">
+              <div class="photo-container">
+                <img src="media/photo-1.jpg" class="photo-1">
+              </div>
+              <div class="box-text">
+                <div class="box-title-1">||</div>
+                <p>When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome .</p>
+                <div class="box-name">Magdalena Valencia</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="testimonials-box">
+              <div class="photo-container">
+                <img src="media/photo-2.jpg" class="photo-2">
+              </div>
+              <div class="box-text">
+                <div class="box-title-1">||</div>
+                <p>When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome .</p>
+                <div class="box-name">Amanda Smith</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-5">
+            <div class="testimonials-box">
+              <div class="photo-container">
+                <img src="media/photo-3.jpg" class="photo-3">
+              </div>
+              <div class="box-text">
+                <div class="box-title-1">||</div>
+                <p>When a beautiful design is combined with powerful technology, it truly is an artwork. I love how my website operates and looks with this theme. Thank you for the awesome .</p>
+                <div class="box-name">Ana Joe</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- block-5 -->
+    <!-- block-6 -->
+    <div class="background-6">
+      <div class="block-6">
+        <h2>Best Offer from house chef</h2>
+        <h3>Why Choose Us?</h3>
+        <div class="block-6-content">
+          <div class="accordion-container">
+            <div class="accordion-text">
+              <h4>A best food to enjoy your ñife.</h4>
+              <p>Amorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nisl. Cras etitikis mauris eget lorem ultricies ferme ntum a inti diam. Morbi mollis pellen tesque offs aiug ueia nec rhoncus. Nam ute ultricies. Amorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae nibh nis</p>
+            </div>
+            <button class="accordion">We shine and sparkle</button>
+            <div class="tab">
+              <p>We follow and maintain utmost standards of presentable appearance, cleanliness, and hygiene to maximize your experience. Cras etitikis mauris eget lorem ultricies ferme ntum a inti diam. Morbi mollis pellen tesque offs aiug ueia nec rhoncus. Nam ute ultricies.</p>
+            </div>
+            <button class="accordion">Profesional staff</button>
+            <div class="tab">
+              <p>We follow and maintain utmost standards of presentable appearance, cleanliness, and hygiene to maximize your experience. Cras etitikis mauris eget lorem ultricies ferme ntum a inti diam. Morbi mollis pellen tesque offs aiug ueia nec rhoncus. Nam ute ultricies.</p>
+            </div>
+            <button class="accordion">Consistency</button>
+            <div class="tab">
+              <p>We follow and maintain utmost standards of presentable appearance, cleanliness, and hygiene to maximize your experience. Cras etitikis mauris eget lorem ultricies ferme ntum a inti diam. Morbi mollis pellen tesque offs aiug ueia nec rhoncus. Nam ute ultricies.</p>
+            </div>
+          </div>
+          <div class="images-container-6">
+            <div class="gallery-column-1">
+              <div class="food-1-container">
+                <img src="media/food-1.jpg" class="food-1" id="open">
+                <div class="caption">
+                  <img src="media/lupa.png" class="open" alt="Caption text" id="open2">
+                </div>
+              </div>
+              <div class="food-4-container">
+                <img src="media/food-4.jpg" class="food-4" id="open3">
+                <div class="caption">
+                  <img src="media/lupa.png" alt="Caption text" id="open4">
+                </div>
+              </div>
+            </div>
+            <div class="gallery-column-2">
+              <div class="food-2-container">
+                <img src="media/food-2.jpg" class="food-2" id="open5">
+                <div class="caption">
+                  <img src="media/lupa.png" alt="Caption text" id="open6">
+                </div>
+              </div>
+              <div class="food-3-container">
+                <img src="media/food-3.jpg" class="food-3" id="open7">
+                <div class="caption">
+                  <img src="media/lupa.png" alt="Caption text" id="open8">
+                </div>
+              </div>
+              <div class="food-5-container">
+                <img src="media/food-5.jpg" class="food-5" id="open9">
+                <div class="caption">
+                  <img src="media/lupa.png" alt="Caption text" id="open10">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- blovk-6 -->
+    <!-- block-7 -->
+    <div class="background-7">
+      <div class="block-7">
+        <div class="slider">
+          <div class="slider-container">
+            <div class="slider-img">
+              <img src="media/partner-1.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-2.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-3.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-4.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-5.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-6.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-1.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-2.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-3.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-4.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-5.png" alt="Imagen 1">
+            </div>
+            <div class="slider-img">
+              <img src="media/partner-6.png" alt="Imagen 1">
+            </div>
+          </div>
+          <a class="back" onclick="backSlide()">&#10094;</a>
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- block-7 -->
+    <!-- block-8 -->
+    <div class="background-8">
+      <div class="block-8">
+        <h2>Our Team</h2>
+        <h3>Meet Our Team</h3>
+        <div class="block-8-content">
+          <div class="box-content-8">
+            <div class="img-8-container">
+              <img src="media/photo-1-b8.jpg" class="photo-b8">
+            </div>
+            <div class="box-content-8-text">
+              <div class="name-8">Edward Robinson</div>
+              <div class="founder">Founder</div>
+              <div class="social">
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/facebook.png" alt="facebook" class="facebook-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/twitter.png" alt="twitter" class="twitter-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/plogo.png" alt="pinterest" class="pinterest-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/linkedin.png" alt="linkedin" class="linkedin-icon-8">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-content-8">
+            <div class="img-8-container">
+              <img src="media/photo-2-b8.jpg" class="photo-b8">
+            </div>
+            <div class="box-content-8-text">
+              <div class="name-8">Edward Robinson</div>
+              <div class="founder">Founder</div>
+              <div class="social">
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/facebook.png" alt="facebook" class="facebook-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/twitter.png" alt="twitter" class="twitter-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/plogo.png" alt="pinterest" class="pinterest-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/linkedin.png" alt="linkedin" class="linkedin-icon-8">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-content-8">
+            <div class="img-8-container">
+              <img src="media/photo-3-b8.jpg" class="photo-b8">
+            </div>
+            <div class="box-content-8-text">
+              <div class="name-8">Edward Robinson</div>
+              <div class="founder">Founder</div>
+              <div class="social">
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/facebook.png" alt="facebook" class="facebook-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/twitter.png" alt="twitter" class="twitter-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/plogo.png" alt="pinterest" class="pinterest-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/linkedin.png" alt="linkedin" class="linkedin-icon-8">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-content-8">
+            <div class="img-8-container">
+              <img src="media/photo-4-b8.jpg" class="photo-b8">
+            </div>
+            <div class="box-content-8-text">
+              <div class="name-8">Edward Robinson</div>
+              <div class="founder">Founder</div>
+              <div class="social">
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/facebook.png" alt="facebook" class="facebook-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/twitter.png" alt="twitter" class="twitter-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/plogo.png" alt="pinterest" class="pinterest-icon-8">
+                  </a>
+                </div>
+                <div class="social-img-8">
+                  <a href="#">
+                    <img src="media/linkedin.png" alt="linkedin" class="linkedin-icon-8">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- block-8 -->
+    <!-- block-9 -->
+    <div class="background-9">
+      <div class="block-9">
+        <div class="box-9-1">
+          <h2>Free Shipping</h2>
+          <p>Free shipping on all order</p>
+          <div class="call">Call: <span> 311-165-3303</span>
+          </div>
+        </div>
+        <div class="box-9-2">
+          <h2>Opening Hours</h2>
+          <div class="days">Monday to Sunday</div>
+          <div class="hours">7:00am - 7:00pm</div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- block-9 -->
+    <!-- block-10 -->
+    <div class="background-10">
+      <div class="block-10">
+        <h2>Get In Touch</h2>
+        <h3>Contact Us</h3>
+        <div class="block-10-content">
+          <div class="col-1-10">
+            <div class="order-2">
+              <form class="reservation-form-2" action="index.html" method="post">
+                <input type="text" name="" value="name*" class="name-form-2">
+                <input type="text" name="" value="E-mail" class="mail-2">
+                <input type="text" name="" value="Phone" class="phone-2">
+                <input type="text" name="" value="Date, Time" class="date-2">
+                <textarea name="name" rows="8" cols="100" value="meessage" class="message-2"></textarea>
+                <button class="button-10">SEND MESSAGE</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-2-10">
+            <div class="maps">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14850.547226701352!2d-104.85714820000001!3d21.482762899999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1676926232896!5m2!1ses-419!2smx" width="335px" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- block-10 -->
+    <!-- block-11 -->
+    <div class="background-11">
+      <div class="block-11">
+        <div class="footer">
+          <div class="footer-logo-container">
+            <img src="media/logo.png" class="image-logo">
+          </div>
+          <div class="footer-icons">
+            <div class="icons-container-2">
+              <a href="#">
+                <img src="media/facebook.png" alt="facebook-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/twitter.png" alt="twitter-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/plogo.png" alt="pinterest-logo">
+              </a>
+            </div>
+            <div class="icons-container">
+              <a href="#">
+                <img src="media/linkedin.png" alt="linkedin-logo">
+              </a>
+            </div>
+          </div>
+          <p>Copyright © 2077 Burger Prince.</p>
+        </div>
+      </div>
+    </div>
+    <!-- block-11 -->
+    <div class="window-container">
+      <div id="modal_container" class="modal-container">
+        <div class="modal">
+          <div class="slideshow-container">
+            <img src="media/close.png" id="close">
+            <div class="mySlides2">
+              <img src="media/slide-1.jpg">
+            </div>
+            <div class="mySlides2">
+              <img src="media/slide-2.jpg">
+            </div>
+            <div class="mySlides2">
+              <img src="media/slide-3.jpg">
+            </div>
+            <div class="mySlides2">
+              <img src="media/slide-4.jpg">
+            </div>
+            <div class="mySlides2">
+              <img src="media/slide-5.jpg">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next-2" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- block-11 -->
+    <script src="./script/main.js"></script>
+  </body>
+</html>

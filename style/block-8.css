@@ -1,0 +1,141 @@
+.background-8{
+     background-color: white;
+}
+ .block-8 {
+     margin: 0 auto;
+     width: 335px;
+     padding: 45px 20px 45px 20px;
+     transition: 0.8s;
+}
+ .block-8 h2{
+     font-family: Ink Free;
+     color: #e7272d;
+     font-size: 18px;
+     text-align: center;
+     transition: 0.8s;
+}
+ .block-8 h3{
+     text-align: center;
+     font-family: Rockwell;
+     color: black;
+     font-size: 25px;
+     transition: 0.8s;
+}
+ .block-8-content{
+     word-wrap: break-word;
+     overflow: hidden;
+}
+ .box-content-8{
+     transition: 0.8s;
+}
+ .photo-b8{
+     height: auto;
+     width: 100%;
+     transition: 0.8s;
+}
+ .box-content-8-text{
+     overflow: hidden;
+     word-wrap;
+     text-align: center;
+     transition: 0.8s;
+}
+ .name-8{
+     font-size: 18px;
+     font-family: 'Rubik', sans-serif;
+     color: black;
+     transition: 0.8s;
+}
+ .founder{
+     color: #888787;
+     font-size: 13px;
+     font-family: 'Rubik', sans-serif;
+     transition: 0.8s;
+}
+ .social{
+     transition: 0.8s;
+}
+ .social img{
+     filter: invert(54%) sepia(98%) saturate(6710%) hue-rotate(342deg) brightness(90%) contrast(100%);
+}
+.social-img-8{
+  width: 12px;
+}
+.social {
+    margin: 0 auto;
+    transition: 0.8s;
+    display: flex;
+    width: 137px;
+    justify-content: space-around;
+}
+.img-8-container + .box-content-8-text{
+  margin-top: 20px;
+}
+.name-8 + .founder{
+  margin-top: 10px;
+}
+.founder + .social{
+  margin-top: 10px;
+}
+.box-content-8 + .box-content-8{
+  margin-top: 30px;
+}
+
+ @media screen and (min-width: 768px) {
+   .box-content-8 + .box-content-8{
+     margin-top: 0;
+   }
+   h3 + .block-8-content{
+     margin-top: 20px;
+   }
+     .block-8{
+         width: 728px;
+    }
+     .block-8-content {
+         display: flex;
+         justify-content: space-evenly;
+    }
+     .box-content-8{
+         width: 150px;
+    }
+}
+ @media screen and (min-width: 1024px) {
+     .block-8{
+         width: 984px;
+    }
+     .block-8 h2{
+         font-size: 20px;
+    }
+     .block-8 h3{
+         font-size: 28px;
+    }
+     .box-content-8{
+         width: 220px;
+    }
+     .name-8{
+         font-size: 18px;
+    }
+     .founder{
+         font-size: 13px;
+    }
+}
+ @media screen and (min-width: 1440px) {
+     .block-8{
+         width: 1400px;
+         padding: 60px 20px 60px 20px;
+    }
+     .block-8 h2{
+         font-size: 30px;
+    }
+     .block-8 h3{
+         font-size: 55px;
+    }
+     .box-content-8{
+         width: 270px;
+    }
+     .name-8{
+         font-size: 20px;
+    }
+     .founder{
+         font-size: 15px;
+    }
+}

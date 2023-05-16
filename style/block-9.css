@@ -1,0 +1,157 @@
+.background-9 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("../media/background-9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: 0.8s;
+}
+
+.block-9 {
+  width: 335px;
+  padding: 75px 20px 75px 20px;
+  margin: 0 auto;
+  transition: 0.8s;
+}
+
+.box-9-1,
+.box-9-2 {
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+p + .call {
+  margin-top: 0;
+}
+
+h2 + .days {
+  margin-top: 20px;
+}
+
+.box-9-1 + .box-9-2 {
+  margin-top: 20px;
+}
+
+.box-9-1 h2 {
+  font-family: Rockwell;
+  font-size: 20px;
+  color: white;
+  transition: 0.8s;
+}
+
+.box-9-1 p {
+  font-family: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  transition: 0.8s;
+}
+
+.call {
+  font-family: 15px;
+  font-family: arial black;
+  color: white;
+  transition: 0.8s;
+}
+
+.call span {
+  font-family: arial black;
+  font-size: 15px;
+  color: #ffcc00;
+  transition: 0.8s;
+}
+
+.box-9-2 h2 {
+  margin: 0;
+  font-family: Rockwell;
+  font-size: 20px;
+  color: white;
+  transition: 0.8s;
+}
+
+.box-9-2 p {
+  font-family: 15px;
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  transition: 0.8s;
+}
+
+.days {
+  font-family: 'Rubik', sans-serif;
+  color: white;
+  transition: 0.8s;
+}
+
+.hours {
+  font-size: 15px;
+  font-family: arial black;
+  color: #ffcc00;
+  transition: 0.8s;
+}
+
+@media screen and (min-width: 768px) {
+  .box-9-1 + .box-9-2 {
+    margin-top: 0;
+  }
+  .clearfix {
+    clear: both;
+    transition: 0.8s;
+  }
+  .block-9 {
+    width: 728px;
+    padding: 75px 20px 75px 20px;
+  }
+  .box-9-1 {
+    float: left;
+    width: 200px;
+    padding: 0px 20px 0px 20px;
+  }
+  .box-9-2 {
+    width: 175px;
+    float: left;
+    padding: 0px 20px 0px 20px;
+  }
+  .box-9-1 h2 {
+    font-size: 22px;
+  }
+  .box-9-2 h2 {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .block-9 {
+    width: 984px;
+  }
+}
+ @media screen and (min-width: 1440px) {
+     .block-9{
+         width: 1330px;
+         padding: 90px 60px 90px 60px;
+    }
+     .box-9-1 h2{
+         font-size: 30px;
+    }
+     .box-9-1 p{
+         font-size: 22px;
+    }
+     .call{
+         font-size: 22px;
+    }
+     .call::after {
+         font-size: 22px;
+    }
+     .box-9-2 h2{
+         font-size: 30px;
+    }
+     .box-9-2 p{
+         font-size: 22px;
+    }
+     .days{
+         font-size: 22px;
+    }
+     .hours{
+         font-size: 22px;
+    }
+     .box-9-1, .box-9-2{
+         width: 250px;
+    }
+}
